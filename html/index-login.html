@@ -10,16 +10,44 @@
         font-family: Arial, Helvetica, sans-serif;
         
     }
-div {
-    border-radius: 8px;
-    background-color: rgba(6, 10, 240, 0.9);
+.box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+    .box1 {
+    border-radius: 8px;
+    background-color: rgba(5, 80, 165, 0.92);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    padding: 80px;
+    color: white;
+    width: 300px;
+    height: 330px;
+    text-align: center;
+
+}
+.box2{
+    
+    border-radius: 8px;
+    background-color: rgb(6, 118, 163);
+    position: absolute;
+    width: 300px;
+    height: 435px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
     padding: 80px;
     color: white;
 }
+#input-box{
+    font-size: 15px;
+    width: 90%;
+}
+
 input{
     padding: 15px;
     border: none;
@@ -31,28 +59,44 @@ button{
     border: none;
     padding: 15px;
     width: 100%;
-    border-radius: 100px;
-    color: rgb(2, 9, 156);
+    border-radius: 50px;
+    color: rgb(5, 80, 165, 0.92);
     font-size: 15px;
 }
 button:hover{
     background-color: rgb(238, 239, 239);
     cursor: pointer;
 }
+    .recover{
+        color: white;
+        padding-left: 35px;
+    }
+.text{
+    margin-top: 50px;
+    text-align: center;
+}
 </style>
-
 </head>
 <body>
-    <div>
-      <h1>Login please</h1>  
-      <input type="text" placeholder= "📧| Input your user ID or Email">
-      <br><br>
-      <input type="password" placeholder="🔑| Input your password">
-      <br><br>
-      <input type="checkbox" name="" id=""> Remember me 
-      <a href=""> Forgot password ?</a>
-      <br><br>
-<button>Send</button>
+    <div class="box">
+        <div class="box2">
+            <h1 class="text">WELCOME!</h1>
+            <h2 class="text">Enter your details and start journey whith us</h2>
+            <button class="text">Signup</button>
+        </div>
+        <div class="box1">
+          <h1>Login please</h1>  
+          <input type="text" id="input-box" placeholder= "📧| Input your user ID or Email">
+          <br><br>
+          <input type="password" id="input-box" placeholder="🔑| Input your password">
+          <br><br>
+          <input type="checkbox" name="" id=""> Remember me    
+          <a href=""class="recover">Forgot password?</a>
+          <br><br>
+    <button>☑️ LOG IN </button>
+        </div>
     </div>
+   
+   
 </body>
 </html>
