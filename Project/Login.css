@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3c5ba;
     
 }
 .box{
@@ -10,13 +11,13 @@ transform: translate(-50%, -50%);
 }
 .box1 {
 border-radius: 8px;
-background-color: rgba(5, 80, 165, 0.92);
+background-color: #88c3b5;
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-100%, -50%);
 padding: 80px;
-color: white;
+color: #6d6168;
 width: 300px;
 height: 330px;
 text-align: center;
@@ -25,7 +26,7 @@ text-align: center;
 .box2{
 
 border-radius: 8px;
-background-color: rgb(6, 118, 163);
+background-color: #d0dccb;
 position: absolute;
 width: 300px;
 height: 435px;
@@ -33,7 +34,7 @@ top: 50%;
 left: 50%;
 transform: translate(-10%, -50%);
 padding: 80px;
-color: white;
+color: #6d6168;
 }
 #input-box{
 font-size: 15px;
@@ -52,7 +53,7 @@ border: none;
 padding: 15px;
 width: 100%;
 border-radius: 50px;
-color: rgb(5, 80, 165, 0.92);
+color: #6d6168;
 font-size: 15px;
 }
 button:hover{
@@ -60,10 +61,13 @@ background-color: rgb(238, 239, 239);
 cursor: pointer;
 }
 .recover{
-    color: white;
+    color: #6d6168;
     padding-left: 35px;
 }
 .text{
 margin-top: 50px;
 text-align: center;
+}
+.link{
+    text-decoration: none;
 }
