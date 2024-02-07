@@ -20,11 +20,9 @@ padding: 80px;
 color: #6d6168;
 width: 300px;
 height: 330px;
-text-align: center;
-
+text-align: left;
 }
 .box2{
-
 border-radius: 8px;
 background-color: #d0dccb;
 position: absolute;
@@ -41,13 +39,15 @@ font-size: 15px;
 width: 90%;
 }
 
-input{
+.checkbox{
 padding: 15px;
 border: none;
 outline: none;
 font-size: 15px;
+width: 90%;
+
 }
-button{
+.bnt{
 background-color: rgb(228, 228, 232);
 border: none;
 padding: 15px;
@@ -62,12 +62,9 @@ cursor: pointer;
 }
 .recover{
     color: #6d6168;
-    padding-left: 35px;
+    padding-left: 5px;
 }
 .text{
 margin-top: 50px;
 text-align: center;
-}
-.link{
-    text-decoration: none;
 }

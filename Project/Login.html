@@ -12,18 +12,24 @@
         <div class="box2">
             <h1 class="text">WELCOME!</h1>
             <h2 class="text">Enter your details and start journey whith us</h2>
-            <button class="link"><a href="../views/Personal_registration.html">SIGNUP</a></button>
+            <button class="bnt"><a href="../views/Personal_registration.html" disabled="true">SIGNUP</a></button>
         </div>
         <div class="box1">
-          <h1>Login please</h1>  
-          <input type="text" id="input-box" placeholder= "📧| Input your user ID or Email">
-          <br><br>
-          <input type="password" id="input-box" placeholder="🔑| Input your password">
-          <br><br>
-          <input type="checkbox" name="" id=""> Remember me    
-          <a href=""class="recover">Forgot password?</a>
-          <br><br>
-    <button>☑️ LOG IN </button>
+                <h1>Login Please</h1>
+                <form id="emailForm">
+                <label for="email">E-mail:</label>
+                <input class="checkbox" type="email" id="email" name="email" required placeholder= "📧| Input your user ID or E-mail">
+                <span class="error-message" id="emailError"></span>
+                <br><br>
+                <label for="password">Password:</label>
+                <input class="checkbox" type="password" name="password" id="password" required placeholder="🔑| Input your password">
+                <br><br>
+                <input type="checkbox" name="" id=""> Remember me    
+                <a href=""class="recover">Forgot password?</a>
+                <br><br>
+                <input class="bnt" type="submit" value="Login">
+              </form>
 </div>
 </body>
+<script src="login.js"></script>
 </html>
